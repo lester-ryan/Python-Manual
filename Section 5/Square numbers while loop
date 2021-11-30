@@ -1,0 +1,7 @@
+#programme to work out all sqaured numbers up to a point using while loop
+
+x = 1
+
+while x <=100:
+    print (x, "*",x, "=", x*x)
+    x = x + 1
