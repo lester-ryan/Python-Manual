@@ -22,3 +22,5 @@ elif ExamGrade < 30:
 else:
     print ('Error')
 #good practice to use else as air catch (ie anything else)
+# can you spot a possible error here ? there is one scenario that should be invalid but will return a grade
+
