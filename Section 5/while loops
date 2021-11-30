@@ -1,0 +1,25 @@
+# while loop
+# as long as condition is met it will execute block of code over and over again
+
+counter = 0
+#this is the control variable and when i put it to zero im "initiating the variable"
+# students often forget to initiate the variable
+
+
+# now we introduce the keyword while, then boolean expression, then colon, then indented code (must be indented)
+#need method in indented code to change control variable or else will go on forever
+
+while counter < 5:
+    print ("Hello world")
+    counter= counter +1 #unless i do this the code will continue to execute
+#     this is called incrementing the variable
+
+# incrementing is important word
+
+# loop will continue until condition for while loop is met
+
+#same code but working backwards we are decrementing the variable
+counter2= 20
+while counter2 > 0:
+    print(counter2)
+    counter2 = counter2 -1
