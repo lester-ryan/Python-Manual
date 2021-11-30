@@ -1,0 +1,29 @@
+# leaving cert grades code that catches errors
+    
+import random
+
+ExamGrade=  int(input('Enter the result: '))
+
+while ExamGrade <0 or ExamGrade > 100:
+    print ("Invalid result")
+    result=  int(input('Enter the result: ')) #need to give user a chance to input again
+print ("Result valid here is your grade: ")
+
+
+if ExamGrade >= 90:
+    print ("H1")
+elif ExamGrade >= 80:
+    print ('H2')
+elif ExamGrade >= 70:
+    print ('H3')
+elif ExamGrade >= 60:
+    print ('H4')
+elif ExamGrade >= 50:
+    print ('H5')
+elif ExamGrade >= 40:
+    print ('H6')
+elif ExamGrade >= 30:
+    print ('H7')
+else:
+    print ('H8')
+
