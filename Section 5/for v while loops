@@ -1,0 +1,45 @@
+# for loops
+
+# less coding in for loops than while loops
+
+# use of range
+# range can take 3 inputs
+# if 1 range (10)
+then start from 0 and up to 9(one less than range) and increment by 1
+# if 2 range (2,10) then start from 2 and up to 9 and increment by 1
+# if 3 range(2,10,2) then start from 2 up to 9 and increment by 2
+# better than while loop cause i dont have to create variable and then initiate the counter
+
+# Simple for loop
+
+# counter is an interation variable
+# counter is a local variable
+
+for counter in range(10):
+    print("Hello World", counter)
+    
+# will print string and number counter 
+# for loop will do something a certain number of times
+# should degbug and step into to show students whats going on
+# the range is basically the same as creating a list [0,1,2,3,4,5,6,,7,8,9]
+# range is creating a list, if no starting point told to list it starts at zero and increment by one unless told otherwise
+
+
+
+print("Goodbye")
+
+myList = [0,1,2,3,4,5,6,7,8,9]
+for counter in myList:
+    print ('Hello world again', counter)
+#     this is the same as above, but the quicker cleaner solution is using range
+# range can take 3 different inputs, if one number in range then it starts on zero, 2 inputs then it will start at first input and
+# increment by one
+
+# example with 3 inputs
+# 3rd input is the amont of increments
+
+for counter in range (1,21,2):
+    print (counter)
+    
+    
+    
