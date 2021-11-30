@@ -1,0 +1,24 @@
+# use of if elif else
+import random
+
+ExamGrade = int(input("What % did you get in your Computer Science Exam: "))
+
+if ExamGrade >= 90:
+    print ("H1")
+elif ExamGrade >= 80:
+    print ('H2')
+elif ExamGrade >= 70:
+    print ('H3')
+elif ExamGrade >= 60:
+    print ('H4')
+elif ExamGrade >= 50:
+    print ('H5')
+elif ExamGrade >= 40:
+    print ('H6')
+elif ExamGrade >= 30:
+    print ('H7')
+elif ExamGrade < 30:
+    print ('H8')
+else:
+    print ('Error')
+#good practice to use else as air catch (ie anything else)
