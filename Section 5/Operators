@@ -1,0 +1,35 @@
+# Relational operators - compare 2 numberic operands
+#  < , < = , >, >=, ==, ! =
+# Find out what the above operators do
+# Run programmes to test them
+
+
+# Arithmitic
+
+# Double click on line of code to introduce a break point
+
+# Other Operators - is, in
+print (5 is 5) 
+print (5 is 6)
+print ('r' in rain)
+print ('r' in pain)
+
+# Very useful to check list
+mylist =  [1,2,3]
+print (2 in myList) #True
+
+# relational operator to compare strings
+print ('computer'=='computer') #true
+print ('computer'=='COMPUTER') #false upper and lower case is not the same
+print ('pc'!= 'PC') #not equal will be true
+
+# Logical operators - not, and , or
+print (True)
+print (not True)
+print (False)
+print (not False)
+# run code to see what happens here
+#not changes true to false and vice versa
+
+
+
