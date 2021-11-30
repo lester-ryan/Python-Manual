@@ -1,0 +1,12 @@
+# Boolean expressions are true or false
+# Google George Boole
+
+print(True)
+print(False)
+# Orange recognises true and false as keywords
+print(type(True))
+# this showing that it is a boolean expersion
+
+print(True+4)
+# will return 5 as True is also 1 (also known as On)
+# what do you think false is represented by?
