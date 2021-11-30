@@ -1,0 +1,31 @@
+#Task:
+#1. Modify the code to allow the user to change the upper bound (eg 1-100)
+#2. Modify the code to allow the user to change the number of guesses
+
+import random
+
+upperBound = int(input("Enter the upper bound: "))
+number = random.randint(1, upperBound)
+print(number) # have a sneak peek!
+
+# Initialise a loop counter
+counter = 0
+tries = int(input("Enter the number of tries you want: "))
+
+# Loop 3 times
+while counter < tries:
+
+    guess = int(input("Enter a number between 1 and "+str(upperBound)+": "))
+    if guess == number:
+        print("Correct")
+        counter = 3 # exit the loop immediately!
+    elif guess < number:
+        print("Too low")
+    else:
+        print("Too high")
+
+    counter = counter + 1
+
+print("Goodbye")
+
+
