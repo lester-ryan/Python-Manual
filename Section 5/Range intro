@@ -1,0 +1,14 @@
+# range
+# for ranges are great as they create a list
+
+# range can take 3 inputs
+# 1 input =  range (10) this is by far the most common
+#     this will start from 0 and up to 9(one less than range) and increment by 1
+
+
+# if 2 range (2,10) then start from 2 and up to 9 and increment by 1
+
+# if 3 range(2,10,2) then start from 2 up to 9 and increment by 2
+
+# better than while loop cause i dont have to create variable and then initiate the counter
+
