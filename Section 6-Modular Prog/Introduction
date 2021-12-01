@@ -1,0 +1,29 @@
+# i want to draw box
+print ("+-----+")
+print ("|-----|")
+print ("|-----|")
+print ("+-----+")
+
+# i want to draw box again
+print ("+-----+")
+print ("|-----|")
+print ("|-----|")
+print ("+-----+")
+
+# Im sick of drawing a box, I want python to remember how to draw a box
+# So i teach it
+# I create a function because I know python can learn this
+# it already has built in functions input and print
+# the ones I create is called a User-fefined funtion
+
+
+
+def drawBox():
+    print ("+-----+")
+    print ("|-----|")
+    print ("|-----|")
+    print ("+-----+")
+    
+# hey python this is how you draw a box remember this for me    
+    
+drawBox() #now draw it
