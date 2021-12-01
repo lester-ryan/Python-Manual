@@ -2,6 +2,7 @@
 def isEven(number):
     if (number % 2 == 0):
 #we need to define what an even number is
+# an even number is one that is divided by 2 with no remainder (thats what code is doing)
         return True
     else:
         return False
