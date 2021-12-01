@@ -1,0 +1,51 @@
+def poem():
+    print('Jack loves to do his homework')
+    print('He never misses a day')
+    print('He even loves the men in white')
+    print('Who are taking him away')
+poem()
+#also note the funtion name is important, it should be tell us something about the function
+#just because python excepts it doesnt mean its good
+
+def poem(name):
+    print(name, 'loves to do his homework')
+    print('He never misses a day')
+    print('He even loves the men in white')
+    print('Who are taking him away')
+    
+poem("Jack")
+
+# created funtion with parameter name
+# making it slightly more flexible
+
+# make it more flexible by taking an input
+
+def poem(name):
+    print(name, 'loves to do his homework')
+    print('He never misses a day')
+    print('He even loves the men in white')
+    print('Who are taking him away')
+    
+
+
+name = input('What is your name? ')
+poem(name)
+
+
+# issue if its a female name
+# need it flexible if person has different pronoun
+# need to add parameter
+# need to call it with two arguements
+
+def poem(name,pronoun):
+    print(name, 'loves to do',pronoun,'homework')
+    print('He never misses a day')
+    print('He even loves the men in white')
+    print('Who are taking him away')
+    
+
+
+name = input('What is your name? ')
+pronoun = input ('Perfered pronoun? ')
+poem(name,pronoun)
+
