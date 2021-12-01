@@ -10,3 +10,9 @@ def isEven(number):
     
 result= isEven(9)
 print (result) # not doing inline processing here
+
+# display even numbers < 100
+(not including need use 101 for that)
+for i in range (100):
+    if isEven(i):
+        print(i)
