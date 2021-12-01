@@ -1,0 +1,10 @@
+
+def readIntegerV1():
+
+    strN = input("Enter a number: ")
+    while not strN.isdigit():
+        strN = input("Enter a number: ") #repeat the loop until valid number is met
+        
+    return int(strN) #once number is entered return it
+
+print (readIntegerV1())
