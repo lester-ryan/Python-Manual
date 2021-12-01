@@ -1,0 +1,16 @@
+#  countdown using recursion
+#  recursion is to execute code until condition is met
+def countDown(n):
+    if n<=0:
+        print('End')
+    else:
+        print(n)
+        countDown(n-1)
+def countUp(n):
+    if n<=0:
+        print('Start')
+    else:
+        countUp(n-1)
+        print(n)
+countDown(5)
+countUp(5)
