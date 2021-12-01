@@ -16,3 +16,15 @@ print (result) # not doing inline processing here
 for i in range (100):
     if isEven(i):
         print(i)
+
+
+def isOdd(number):
+    if (number % 2 != 0): #all we did is change == to !0
+#we need to define what an even number is, code is checking if divided by 2 will leave a remainder
+        return True
+    else:
+        return False
+# every other scenario return false
+    
+result= isOdd(9)
+print (result) # not doing inline processing here
