@@ -1,0 +1,20 @@
+def area(L,W):
+    print (lenght * width)
+
+lenght= int(input('What is the length: '))
+width= int(input('What is the width: '))
+
+area(lenght,width) #arguememt
+
+# parameters and variable dont need to be the same
+
+# if you print you are not making your code reusable so use return value to make it reusable
+
+def area(L,W):
+    area = (lenght * width)
+    return area #instead of printing it is used elsewhere in the programme
+
+lenght= int(input('What is the length: '))
+width= int(input('What is the width: '))
+
+area(lenght,width)
