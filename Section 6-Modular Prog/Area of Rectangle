@@ -1,0 +1,9 @@
+def area(L,W):
+    print (lenght * width)
+
+lenght= int(input('What is the length: '))
+width= int(input('What is the width: '))
+
+area(lenght,width)
+
+parameters and variable dont need to be the same
