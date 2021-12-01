@@ -1,0 +1,16 @@
+# Add all the numbers from 0 to n
+def sumOfN(n):
+    total = 0
+    
+    for i in range(n+1):
+        total = total + i
+
+    return total
+
+# Call the function
+# 0+1+2+3+4+5=15
+print(sumOfN(10))
+#inline processing or calling a function within a function, Sum of numbers up to n + 1
+# remember python starts with number 0 (this is index 1)
+
+# Explain why the program does not display any output
