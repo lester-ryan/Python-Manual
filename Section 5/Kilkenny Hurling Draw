@@ -1,0 +1,32 @@
+import random
+
+
+def league_draw ():
+    KK_Teams = ['Clara','Tullaroan','Lisdowney','GBC','Mvat','Erins Own','OLG','Dicksboro','James Stephens','Ballyhale','Glenmore','Bennettsbridge',]
+    print("\n")
+    KK_Teams.sort() # sorts teams in alphabetical order
+
+    print ("Teams: ", KK_Teams) # prints out the teams in alphabetical order
+    random.shuffle(KK_Teams) # shuffles the teams (this is effectively the "draw")
+
+    
+    print('\nThe two groups are: \n')
+    print (KK_Teams[0:6])
+    print (KK_Teams[6:])
+
+def championship_draw():
+
+    KK_Teams = ['Clara','Tullaroan','Lisdowney','GBC','Mvat','Erins Own','OLG','Dicksboro','James Stephens','Ballyhale','Glenmore','Bennettsbridge',]
+    random.shuffle(KK_Teams)
+
+    print('\nChampionship Draw \n')       
+    print (KK_Teams[0:2])
+    print (KK_Teams[2:4])
+    print (KK_Teams[4:6])
+    print (KK_Teams[6:8])
+    print (KK_Teams[8:10])
+    print (KK_Teams[10:])
+    
+league_draw()
+championship_draw()
+
