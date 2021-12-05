@@ -1,0 +1,6 @@
+Section 5 – Programming Logic (selection/conditions and iteration/loops)
+
+iteration = loop
+
+This section explains the syntax and semantics of a number of programming constructs such as if, elif, else, while and for statements. The emphasis throughout is on application i.e. recognising situations where it is more appropriate to one of these control structures over
+the other. Many of the examples are layered, based on a guessing game program.
