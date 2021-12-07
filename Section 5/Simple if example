@@ -1,0 +1,14 @@
+# If the number is positive, we print an appropriate message
+
+number = 3
+if number > 0:
+    print(num, "is a positive number.")
+print("This is always printed.")
+
+number = -1
+if num > 0:
+    print(num, "is a positive number.")
+print("This is also always printed.")
+
+#note that the info is always printed as it is not indented so its not effect by conditional code
+#amend the above example to allow user input and use elif condition rather than another block of conditional code
