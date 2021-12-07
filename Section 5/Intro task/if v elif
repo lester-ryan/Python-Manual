@@ -1,0 +1,22 @@
+'''In this program, 
+we check if the number is positive or
+negative or zero and 
+display an appropriate message'''
+
+num = 3.4
+
+# Try these two variations as well:
+# num = 0
+# num = -4.5
+
+if num > 0:
+    print("Positive number") #check to see if num is > 0
+elif num == 0:
+    print("Zero") #if first condition is not met test this condition
+else:
+    print("Negative number") # if none of the above conditions are met do this
+
+# its important to note the elif is more efficient than if
+# if we one condition is met we should stop if we have completed task
+# for example if I made a list of places to search for lost car keys id
+# stop if i found them in first place i looked
