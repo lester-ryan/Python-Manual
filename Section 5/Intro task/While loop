@@ -1,0 +1,8 @@
+# With the while loop we can execute a set of statements as long as a condition is true
+# here something to do while a condition is true, stop when condition is false
+
+i = 1
+while i in range(10):
+    print (i)
+    i = i + 1
+
