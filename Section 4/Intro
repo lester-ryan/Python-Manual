@@ -1,4 +1,0 @@
-
-Lists are useful because they provide us with a means of grouping several variables into a single variable. The value of each variable is known as a list element and these can be accessed by using the same indexing/slicing techniques as was described in the previous section on strings.
-Just think about it. Thus far we have been using variables to store single values. This has been the case regardless of the variable’s datatype i.e. whether it is a string or numeric, only one value at a time can be stored in it.
-The main purpose of lists it to provide a mechanism for dealing with multiple values using a single variable.
